@@ -25,8 +25,41 @@ body { font-family: Arial, sans-serif; margin: 20px; padding: 0; background-colo
             border: none; 
             border-radius: 5px; 
             cursor: pointer;
+            margin-bottom: 2%;
         }
-        button:hover { background-color: #0056b3; }
+        
+        .btnAtt { 
+            width: 100%; 
+            background-color: #007BFF; 
+            color: white; 
+            padding: 10px; 
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer;
+            margin-bottom: 2%;
+        }
+
+        .divBtn { 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .delete-btn { 
+            width: 100%; 
+            background-color: #9f1e1e; 
+            color: white; 
+            padding: 10px; 
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer;
+            margin-top: 5%;
+        }
+        .delete-btn:hover{
+            background-color: #e86d5f;
+        }
+
+        button:hover { background-color: #097ed8; }
         table { 
             width: 100%; 
             border-collapse: collapse; 
