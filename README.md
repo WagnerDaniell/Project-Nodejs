@@ -1,5 +1,8 @@
-# Modelo Payload
+# Project Node
 
+Este projeto requer a instalação de dependências como **Express** e **Mongoose**.
+
+# Payload exemplar
 {
   "nome": "wagner",
   "email": "joao.silvaa@gmail.com",
